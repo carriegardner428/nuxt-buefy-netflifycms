@@ -1,0 +1,34 @@
+{
+  "name": "nuxt-buefy-netlifycms-template",
+  "version": "1.0.0",
+  "description": "template",
+  "author": "mylesglass",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.10.1",
+    "@nuxtjs/markdownit": "^1.2.9",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "blueprint-css": "^3.1.1",
+    "node-sass": "^4.14.0",
+    "nuxt": "^2.12.2",
+    "nuxt-buefy": "^0.3.27",
+    "nuxt-svg-loader": "^1.2.0",
+    "p5": "^0.10.2",
+    "sass-loader": "^8.0.2",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^2.0.2",
+    "@nuxtjs/eslint-module": "^1.1.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-nuxt": "^0.5.2"
+  }
+}
